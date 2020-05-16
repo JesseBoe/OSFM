@@ -13,6 +13,42 @@
   }
 }
 
+.text-about {
+  margin-top: 16px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: rgb(0, 255, 221);
+  
+}
+.nav-link:hover {
+  color: rgb(15, 180, 158);
+  cursor: pointer;
+}
+
+b{
+  color: rgb(201, 78, 78);
+}
+
+p{
+  font-size: 18px;
+}
+
+.sidebar-heading{
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding-bottom: 32px;
+}
+
+.block {
+  display: block;
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,8 +60,70 @@
   color: white;
 }
 
+.bg-dark01 {
+    background-color: #3f4953!important;
+}
+
+.bg-darkRed {
+    background-color: #272727;
+}
+
+
+.toTop {
+  border-color: #1e2022!important;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.sticky-sidebar::-webkit-scrollbar {
+  width: 11px;
+}
+
+html {
+  --scrollbarBG: rgb(88, 88, 88);
+  --thumbBG: rgb(53, 53, 53);
+}
+
+.sticky-sidebar::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+.sticky-sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.sticky-sidebar {
+  top: 52px;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.category-header {
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  width: 99%;
+  height: auto;
 }
 
 @keyframes App-logo-spin {
