@@ -17,6 +17,8 @@
   margin-top: 16px;
 }
 
+.ignore-css{all:unset;}
+
 .nav-link {
   font-weight: bold;
   color: rgb(0, 255, 221);

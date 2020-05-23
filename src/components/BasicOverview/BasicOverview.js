@@ -36,7 +36,7 @@ class BasicOverview extends React.Component {
                             <p className="text-about">We learned a little about navigating with VSC and about the Data folder.</p>
                             <div style={{position:"relative", bottom: "-12px"}} className="d-flex justify-content-between">
                                 <Link to="/Tools"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop"><i class="fas fa-arrow-left"></i> Tools for the Job</p></Link>
-                                <Link to="/Xml"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop">What is an XML file anyways? <i class="fas fa-arrow-right"></i></p></Link>
+                                <Link to="/FirstSpell"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop">Our First Custom Spell <i class="fas fa-arrow-right"></i></p></Link>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
-import t1 from "./Tools01.png"
 import t2 from "./Tools02.png"
 
 class Tools extends React.Component {

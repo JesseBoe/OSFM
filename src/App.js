@@ -5,14 +5,17 @@ import Home from './components/Home/Home.js'
 import BasicOverview from './components/BasicOverview/BasicOverview.js'
 import WorkshopSetup from './components/WorkshopSetup/WorkshopSetup.js'
 import Tools from './components/Tools/Tools.js'
+import FirstSpell from './components/FirstSpell/FirstSpell.js'
 
-import logo from './logo.svg';
 import './App.css';
 import './simple-sidebar.css';
+
+
 
 function App() {
   return (
     <div className="App">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
       <Router>
         <div className="d-flex" id="wrapper">
           <div className="bg-dark border-right border-dark text-light sticky-sidebar" id="sidebar-wrapper">
@@ -21,8 +24,8 @@ function App() {
               <Link to="/WorkshopSetup"><span className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Steam Workshop Setup</span></Link>
               <Link to="/Tools"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Tools</span></Link>
               <Link to="/Basics"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Basic Overview</span></Link>
-              <Link to="/About"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">What is XML</span></Link>
-              <Link to="/About"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">What is LUA</span></Link>
+              <Link to="/FirstSpell"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Spell</span></Link>
+              <Link to="/FirstKit"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Character</span></Link>
             </div>
 
             <div className="sidebar-heading">Custom Characters</div>
@@ -72,12 +75,12 @@ function App() {
                 </ul>
               </div>
             </nav>
-
             <div class="container-fluid">
               <Route exact={true} path="/" component={Home} />
               <Route exact={true} path="/WorkshopSetup" component={WorkshopSetup} />
               <Route exact={true} path="/Tools" component={Tools} />
               <Route exact={true} path="/Basics" component={BasicOverview} />
+              <Route exact={true} path="/FirstSpell" component={FirstSpell} />
             </div>
           </div>
 
