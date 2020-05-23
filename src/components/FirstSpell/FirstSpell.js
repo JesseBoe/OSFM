@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 import s1 from "./FirstSpell01.png"
+import s3 from "./FirstSpell02.png"
+import s4 from "./FirstSpell03.png"
 import s2 from "./Miniminigun.png"
 import Highlight from "react-highlight.js";
 
@@ -67,8 +69,6 @@ class FirstSpell extends React.Component {
                                     &nbsp;&nbsp;&lt;TrinityCast&gt;DoubleCast&lt;/TrinityCast&gt;<br />
                                     &lt;/Spell&gt;
                             </Highlight>
-                            
-
                             <p className="text-about">Lets copy this spell into our own file and change the itemID to "MiniMiniGun"</p>
                             <p className="text-about">Change the &lt;Mana&gt; tag to 0</p>
                             <p className="text-about">Change the &lt;Shots&gt; tag to 6</p>
@@ -118,10 +118,22 @@ class FirstSpell extends React.Component {
                             <p className="text-about">For now you can right click the image above and Save As Miniminigun.png inside of your workshop folder.</p>
                             <p className="text-about">The name of the image must match the <b>itemID!</b></p>
 
+                            <div><img src={s3} className="mw100" alt="OSFM Page Header" /></div>
+
+                            <p className="text-about">Your workshop folder should look like this.</p>
+                            <p className="text-about">If you boot up the game and click the Install Mods button in the mods tab, we should be able to view our spell in the library.</p>
+
+                            <div><img src={s4} className="mw100" alt="OSFM Page Header" /></div>
+
+                            <p className="text-about">Unfortuantly, we do not currently have an easy way to test out our new spells, so we will be making a custom character capable of testing in the next section.</p>
+
+                            <h2 className="text-header mt-4">Mission Complete!</h2>
+                            <p className="text-about">We will be covering spells in depth in the "Custom Spells" section. At this point, it would be nice if we could actually test our new spell, so lets set up a custom character.</p>
+
                             <p className="text-about"></p>
                             <div style={{ position: "relative", bottom: "-12px" }} className="d-flex justify-content-between">
-                                <Link to="/Tools"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop"><i class="fas fa-arrow-left"></i> Tools for the Job</p></Link>
-                                <Link to="/FirstSpell"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop">Our First Custom Spell <i class="fas fa-arrow-right"></i></p></Link>
+                                <Link to="/Basics"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop"><i class="fas fa-arrow-left"></i> Basics</p></Link>
+                                <Link to="/FirstCharacter"><p onClick={() => { this.scrollTo() }} style={{ padding: "0px" }} className="nav-link toTop">Our First Custom Character <i class="fas fa-arrow-right"></i></p></Link>
                             </div>
                         </div>
                     </div>

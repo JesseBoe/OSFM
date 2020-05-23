@@ -25,7 +25,7 @@ class WorkshopSetup extends React.Component {
                             <h2 className="text-header">Creating your first mod</h2>
                             <p className="text-about">Our goal for this guide is to be able to see, update and run our mod from the mods menu! Lets get started.</p>
                             <p className="text-about">Launch the game and navigate into the mods menu. Once loaded click the Create Mod button. Give your mod a name and a description, then click upload. Dont worry about the description so much, we can change it later.</p>
-                            <div className="card-header text-center text-white bg-darkRed" href="#collapseOne"> <img className="category-header" src={ws1} alt="OSFM Page Header" /></div>
+                            <div><img src={ws1} className="mw100" alt="OSFM Page Header" /></div>
                             <p className="text-about">Now that our mod is created, we need to subscribe to our own mod on the workshop. Lets open up our steam profile and navigate to workshop items.</p>
                             <div className="card-header text-center text-white bg-darkRed" href="#collapseOne"><img className="category-header" src={ws2} alt="OSFM Page Header" /></div>
                             <p className="text-about">Click on our mod.</p>                           
@@ -38,7 +38,7 @@ class WorkshopSetup extends React.Component {
                             <div className="card-header text-center text-white bg-darkRed" href="#collapseOne"><img className="category-header" src={ws5} alt="OSFM Page Header" /></div>
                             <p className="text-about">This is where the magic happens. Anything you add to this folder ends up being uploaded to the steam workshop. This is also the folder that gets loaded when you hit install mods.</p>
                             <p className="text-about">For now, lets test our settup by clicking the "Update Mod" button, selecting the appropriate tags and click upload. You should see this upon completion</p>                            
-                            <div className="card-header text-center text-white bg-darkRed" href="#collapseOne"><img className="category-header" src={ws6} alt="OSFM Page Header" /></div>
+                            <div><img src={ws6} className="mw100" alt="OSFM Page Header" /></div>
                             <h2 className="text-header mt-4">Mission Complete!</h2>
                             <p className="text-about">We can now see, update and run our mod from the mods menu! It is important to note that our mod is still hidden on the steam workshop. I would recommend waiting until your mod is finsihed before publishing it to the steam workshop, or be prepared for negitive reviews.</p>
                             <div style={{ position: "relative", bottom: "-12px" }} className="d-flex justify-content-between">
