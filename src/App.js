@@ -7,6 +7,7 @@ import WorkshopSetup from './components/WorkshopSetup/WorkshopSetup.js'
 import Tools from './components/Tools/Tools.js'
 import FirstSpell from './components/FirstSpell/FirstSpell.js'
 import FirstCharacter from './components/FirstCharacter/FirstCharacter.js'
+import SpritesAndSounds from './components/SpritesAndSounds/SpritesAndSounds.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -43,8 +44,8 @@ function App() {
             <div className="sidebar-heading">Viewing Game Files</div>
             <div className="list-group list-group-flush">
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Simple</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>Sprites and Sounds</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>C# Scripts</b></span></Link>
+              <Link to="/SpritesAndSounds"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Sprites and Sounds</span></Link>
+              <Link to="/Scripts"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>C# Scripts</b></span></Link>
             </div>
 
             <div className="sidebar-heading">Harmony</div>
@@ -74,6 +75,7 @@ function App() {
               <Route exact={true} path="/Basics" component={BasicOverview} />
               <Route exact={true} path="/FirstSpell" component={FirstSpell} />
               <Route exact={true} path="/FirstCharacter" component={FirstCharacter} />
+              <Route exact={true} path="/SpritesAndSounds" component={SpritesAndSounds} />
             </div>
           </div>
         </div>
