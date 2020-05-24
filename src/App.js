@@ -6,11 +6,10 @@ import BasicOverview from './components/BasicOverview/BasicOverview.js'
 import WorkshopSetup from './components/WorkshopSetup/WorkshopSetup.js'
 import Tools from './components/Tools/Tools.js'
 import FirstSpell from './components/FirstSpell/FirstSpell.js'
+import FirstCharacter from './components/FirstCharacter/FirstCharacter.js'
 
 import './App.css';
 import './simple-sidebar.css';
-
-
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
               <Link to="/Tools"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Tools</span></Link>
               <Link to="/Basics"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Basic Overview</span></Link>
               <Link to="/FirstSpell"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Spell</span></Link>
-              <Link to="/FirstKit"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Character</span></Link>
+              <Link to="/FirstCharacter"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Character</span></Link>
             </div>
 
             <div className="sidebar-heading">Custom Characters</div>
@@ -51,14 +50,7 @@ function App() {
             <div className="sidebar-heading">Harmony</div>
             <div className="list-group list-group-flush">
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Yeah right</b></span></Link>
-            </div>
-
-            <div className="sidebar-heading">Viewing Game Files</div>
-            <div className="list-group list-group-flush">
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Simple</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>Sprites and Sounds</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>C# Scripts</b></span></Link>
-            </div>            
+            </div>   
           </div>
           <div id="page-content-wrapper">
             <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-dark01 border-dark border-bottom">
@@ -81,9 +73,9 @@ function App() {
               <Route exact={true} path="/Tools" component={Tools} />
               <Route exact={true} path="/Basics" component={BasicOverview} />
               <Route exact={true} path="/FirstSpell" component={FirstSpell} />
+              <Route exact={true} path="/FirstCharacter" component={FirstCharacter} />
             </div>
           </div>
-
         </div>
       </Router>
     </div>
