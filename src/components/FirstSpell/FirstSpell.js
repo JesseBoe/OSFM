@@ -23,7 +23,7 @@ class FirstSpell extends React.Component {
                         <div className="card-header text-center text-white" href="#collapseOne"></div>
                         <div className='card-body text-white'>
                             <h2 className="text-header">First Custom Spell</h2>
-                            <p className="text-about">The goal for this guide is to make our first spell!.</p>
+                            <p className="text-about">The goal for this guide is to make our first spell!</p>
                             <p className="text-about">First lets set up a Spells.xml file to our workshop folder.</p>
                             <p className="text-about">Open your workshop folder using the open with code button if you dont have it open already.</p>
                             <div><img src={s1} alt="OSFM Page Header" /></div>

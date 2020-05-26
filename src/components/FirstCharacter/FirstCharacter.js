@@ -32,7 +32,7 @@ class FirstCharacter extends React.Component {
 
                             <div><img src={fc2} className="mw100" alt="OSFM Page Header" /></div>
 
-                            <p className="text-about">This is the Saffron selectable in the main Campain, lets use this one as our template.</p>
+                            <p className="text-about">This is the Saffron selectable in the main Campaign, lets use this one as our template.</p>
 
                             <p className="text-about">Next lets set up our own Heroes.xml file to our workshop folder.</p>
                             <p className="text-about">Open your workshop folder using the open with code button if you dont have it open already.</p>
