@@ -9,6 +9,8 @@ import FirstSpell from './components/FirstSpell/FirstSpell.js'
 import FirstCharacter from './components/FirstCharacter/FirstCharacter.js'
 import SpritesAndSounds from './components/SpritesAndSounds/SpritesAndSounds.js'
 import DotPeek from './components/DotPeek/DotPeek.js'
+import LuaIntro from './components/LuaIntro/FirstLua.js'
+import LuaExamples from './components/LuaExamples/LuaExamples.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -40,6 +42,12 @@ function App() {
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Spells.xml</b></span></Link>
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>Spells.lua</b></span></Link>
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Spell Icons</b></span></Link>
+            </div>
+
+            <div className="sidebar-heading">Lua Scripting</div>
+            <div className="list-group list-group-flush">
+              <Link to="/LuaIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Intro</span></Link>
+              <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Examples</span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
@@ -78,6 +86,8 @@ function App() {
               <Route exact={true} path="/FirstCharacter" component={FirstCharacter} />
               <Route exact={true} path="/SpritesAndSounds" component={SpritesAndSounds} />
               <Route exact={true} path="/DotPeek" component={DotPeek} />
+              <Route exact={true} path="/LuaIntro" component={LuaIntro} />
+              <Route exact={true} path="/LuaExamples" component={LuaExamples} />
             </div>
           </div>
         </div>
