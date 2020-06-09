@@ -11,6 +11,7 @@ import SpritesAndSounds from './components/SpritesAndSounds/SpritesAndSounds.js'
 import DotPeek from './components/DotPeek/DotPeek.js'
 import LuaIntro from './components/LuaIntro/FirstLua.js'
 import LuaExamples from './components/LuaExamples/LuaExamples.js'
+import MoreLuaPower from './components/MoreLuaPower/MoreLuaPower.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -31,35 +32,24 @@ function App() {
               <Link to="/FirstCharacter"><span className="list-group-item list-group-item-action bg-dark text-light text-left toTop">First Character</span></Link>
             </div>
 
-            <div className="sidebar-heading">Custom Characters</div>
-            <div className="list-group list-group-flush">
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Heroes.xml</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>Animations</b></span></Link>
-            </div>
-
-            <div className="sidebar-heading">Custom Spells</div>
+            <div className="sidebar-heading">Advanced</div>
             <div className="list-group list-group-flush">
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Spells.xml</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop"><b>Spells.lua</b></span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Spell Icons</b></span></Link>
-            </div>
-
-            <div className="sidebar-heading">Lua Scripting</div>
-            <div className="list-group list-group-flush">
-              <Link to="/LuaIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Intro</span></Link>
-              <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Examples</span></Link>
+              <Link to="/LuaIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Intro to LUA</span></Link>
+              <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">LUA Examples</span></Link>
+              <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
+              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Brands</b></span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
             <div className="list-group list-group-flush">
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Simple</b></span></Link>
               <Link to="/SpritesAndSounds"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Sprites and Sounds</span></Link>
               <Link to="/DotPeek"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop">C# Scripts</span></Link>
             </div>
 
             <div className="sidebar-heading">Harmony</div>
             <div className="list-group list-group-flush">
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Yeah right</b></span></Link>
+              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Maybe one day</b></span></Link>
             </div>   
           </div>
           <div id="page-content-wrapper">
@@ -88,6 +78,7 @@ function App() {
               <Route exact={true} path="/DotPeek" component={DotPeek} />
               <Route exact={true} path="/LuaIntro" component={LuaIntro} />
               <Route exact={true} path="/LuaExamples" component={LuaExamples} />
+              <Route exact={true} path="/MoreLuaPower" component={MoreLuaPower} />
             </div>
           </div>
         </div>

@@ -29,6 +29,14 @@ class LuaExamples extends React.Component {
                                 end<br/>
                             </Highlight>
 
+                            <h2 className="text-header">Add a temperoray Spell By Name</h2>
+                            <p className="text-about">Example: AddSpellToDeck(item, "Frostbolt")</p>
+                            <Highlight language="lua">
+                                function AddSpellToDeck(item, nameOfSpell)<br/>
+                                &nbsp;&nbsp;item.being.player.duelDisk.AddLiveSpell(item, nameOfSpell, item.being.player, false, false)<br/>
+                                end<br/>
+                            </Highlight>
+
                             <h2 className="text-header">Equip Weapon By Name</h2>
                             <p className="text-about">Example: EquipWeaponByName(item, "CampaignGun")</p>
                             <Highlight language="lua">
@@ -39,10 +47,24 @@ class LuaExamples extends React.Component {
 
                             <h2 className="text-header">Play Sound By Name</h2>
                             <p className="text-about">Example: PlaySoundByName(item, "misc_shimmer")</p>
+                            <h4>Custom Sounds</h4>
+                            <p className="text-about">Using <Link to="/MoreLuaPower"><span onClick={() => { this.scrollTo() }} style={{ padding: "0px", display: "inline" }} className="nav-link toTop">MoreLuaPower</span></Link> you can even import .Wav or .Ogg files and play them this way. If I had a file named MySound.ogg placed in my mod folder, I would simply use PlaySoundByName(item, "MySound"). The name of this file must be unique!</p>
                             <Highlight language="lua">
                                 function PlaySoundByName(item, soundName)<br />
                                 &nbsp;&nbsp;item.being.PlayOnce(soundName)<br />
                                 end<br />
+                            </Highlight>
+
+                            <h2 className="text-header">Play Song</h2>
+                            <p className="text-about"><Link to="/MoreLuaPower"><span onClick={() => { this.scrollTo() }} style={{ padding: "0px", display: "inline" }} className="nav-link toTop">MoreLuaPower</span></Link> required.</p>
+                            <Highlight language="lua">
+                                &nbsp;&nbsp;PlayBattleMusic("MySoundName")<br />
+                            </Highlight>
+
+                            <h2 className="text-header">Change Character Animations</h2>
+                            <p className="text-about"><Link to="/MoreLuaPower"><span onClick={() => { this.scrollTo() }} style={{ padding: "0px", display: "inline" }} className="nav-link toTop">MoreLuaPower</span></Link> required.</p>
+                            <Highlight language="lua">
+                                item.being.animOverrider.controllerName = "NameOfYourCharacter"
                             </Highlight>
 
                             <h2 className="text-header">Move Towards By X, Y</h2>
