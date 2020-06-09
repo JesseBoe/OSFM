@@ -29,7 +29,7 @@ class LuaExamples extends React.Component {
                                 end<br/>
                             </Highlight>
 
-                            <h2 className="text-header">Add a temperoray Spell By Name</h2>
+                            <h2 className="text-header">Add a temporary Spell By Name</h2>
                             <p className="text-about">Example: AddSpellToDeck(item, "Frostbolt")</p>
                             <Highlight language="lua">
                                 function AddSpellToDeck(item, nameOfSpell)<br/>
