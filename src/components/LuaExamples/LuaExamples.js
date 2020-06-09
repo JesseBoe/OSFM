@@ -18,6 +18,10 @@ class LuaExamples extends React.Component {
                         <div className="card-header text-center text-white" href="#collapseOne"></div>
                         <div className='card-body text-white'>
 
+                            <b>Disclaimer: You will want to change the names of the functions, otherwise other mods using the same names in their code could cause incompatibility.</b>
+                            <br/>
+                            <br/>
+
                             <h2 className="text-header">Cast Spell By Name</h2>
                             <p className="text-about">Example: CastSpellByName(item, "Frostbolt")</p>
                             <Highlight language="lua">
@@ -68,13 +72,12 @@ class LuaExamples extends React.Component {
                             </Highlight>
 
                             <h2 className="text-header">Move Towards By X, Y</h2>
-                            <p className="text-about">MoveTowardsTile(item, 1, 1)</p>
+                            <p className="text-about">Example: MoveTowardsTile(item, 1, 1)</p>
                             <Highlight language="lua">
                                 function MoveTowardsTile(item, x, y)<br/>
                                 &nbsp;&nbsp;item.being.mov.MoveTowardsTile(item.being.battleGrid.GetTileAt(x,y))<br/>
                                 end<br/>
                             </Highlight>
-
 
                             
                             <div style={{ position: "relative", bottom: "-12px" }} className="d-flex justify-content-between">
