@@ -21,7 +21,7 @@ class CustomBrand extends React.Component {
                         <div className="card-header text-center text-white" href="#collapseOne"></div>
                         <div className='card-body text-white'>
 
-                            <h2 className="text-header">Custom Brand</h2>
+                            <h2 className="text-header">Custom Brands</h2>
                             <p className="text-about">The goal of this section is to teach you how to create your very own brand! First of all you might be asking, what is a brand?</p>
                             <p className="text-about">In OSFE every spell the player can obtain belongs to a brand, like Anima, Slashfik or Kinesys.</p>
                             <p className="text-about">Using <Link to="/MoreLuaPower"><span onClick={() => { this.scrollTo() }} style={{ padding: "0px", display: "inline" }} className="nav-link toTop">MoreLuaPower</span></Link> it is possible to add your own!</p>
