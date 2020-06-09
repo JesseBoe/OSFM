@@ -12,6 +12,7 @@ import DotPeek from './components/DotPeek/DotPeek.js'
 import LuaIntro from './components/LuaIntro/FirstLua.js'
 import LuaExamples from './components/LuaExamples/LuaExamples.js'
 import MoreLuaPower from './components/MoreLuaPower/MoreLuaPower.js'
+import CustomBrand from './components/CustomBrand/CustomBrand.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -38,7 +39,7 @@ function App() {
               <Link to="/LuaIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Intro to LUA</span></Link>
               <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">LUA Examples</span></Link>
               <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Brands</b></span></Link>
+              <Link to="/CustomBrand"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Brands</span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
@@ -79,6 +80,7 @@ function App() {
               <Route exact={true} path="/LuaIntro" component={LuaIntro} />
               <Route exact={true} path="/LuaExamples" component={LuaExamples} />
               <Route exact={true} path="/MoreLuaPower" component={MoreLuaPower} />
+              <Route exact={true} path="/CustomBrand" component={CustomBrand} />
             </div>
           </div>
         </div>
