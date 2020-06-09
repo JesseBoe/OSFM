@@ -58,7 +58,7 @@ class LuaExamples extends React.Component {
                             <h2 className="text-header">Play Song</h2>
                             <p className="text-about"><Link to="/MoreLuaPower"><span onClick={() => { this.scrollTo() }} style={{ padding: "0px", display: "inline" }} className="nav-link toTop">MoreLuaPower</span></Link> required.</p>
                             <Highlight language="lua">
-                                &nbsp;&nbsp;PlayBattleMusic("MySoundName")<br />
+                                PlayBattleMusic("MySoundName")<br />
                             </Highlight>
 
                             <h2 className="text-header">Change Character Animations</h2>
