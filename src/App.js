@@ -42,6 +42,7 @@ function App() {
               <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
               <Link to="/CustomBrands"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Brands</span></Link>
               <Link to="/CustomEffects"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Effects</span></Link>
+              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Particle Effects</b></span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
