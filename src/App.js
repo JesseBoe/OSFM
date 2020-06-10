@@ -13,6 +13,7 @@ import LuaIntro from './components/LuaIntro/FirstLua.js'
 import LuaExamples from './components/LuaExamples/LuaExamples.js'
 import MoreLuaPower from './components/MoreLuaPower/MoreLuaPower.js'
 import CustomBrand from './components/CustomBrand/CustomBrand.js'
+import CustomEffect from './components/CustomEffects/CustomEffects.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -40,6 +41,7 @@ function App() {
               <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">LUA Examples</span></Link>
               <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
               <Link to="/CustomBrands"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Brands</span></Link>
+              <Link to="/CustomEffects"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Effects</span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
@@ -81,6 +83,7 @@ function App() {
               <Route exact={true} path="/LuaExamples" component={LuaExamples} />
               <Route exact={true} path="/MoreLuaPower" component={MoreLuaPower} />
               <Route exact={true} path="/CustomBrands" component={CustomBrand} />
+              <Route exact={true} path="/CustomEffects" component={CustomEffect} />
             </div>
           </div>
         </div>
