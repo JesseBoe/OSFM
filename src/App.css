@@ -140,3 +140,15 @@ html {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 1600px) {
+
+  .sticky-sidebar {
+    max-width: 220px;
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 70%;
+  }
+}
