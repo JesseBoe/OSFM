@@ -10,6 +10,8 @@ import Highlight from "react-highlight.js";
 
 class FirstSpell extends React.Component {
 
+    
+
     scrollTo = () => {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
