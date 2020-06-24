@@ -23,7 +23,7 @@ class HarmonySetup extends React.Component {
                     <div className="card text-left bg-dark">
                         <div className="card-header text-center text-white" href="#collapseOne"></div>
                         <div className='card-body text-white'>
-                            <h2 className="text-header">Harmony Intro</h2>
+                            <h2 className="text-header">Harmony Setup</h2>
                             <p className="text-about">The goal for this guide is to set up everything you need for Harmony development.</p>
                             <p className="text-about">But first, what even is Harmony?</p>
                             <p className="text-about">A library for patching, replacing and decorating .NET and Mono methods during runtime. When using Harmony, just about anything is possible. I would reccomend you proceed with this section if you are brushed up on C# or are strong with other programming languages.</p>

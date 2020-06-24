@@ -15,9 +15,12 @@ import MoreLuaPower from './components/MoreLuaPower/MoreLuaPower.js'
 import CustomBrand from './components/CustomBrand/CustomBrand.js'
 import CustomEffect from './components/CustomEffects/CustomEffects.js'
 import HarmonyIntro from './components/HarmonySetup/HarmonySetup.js'
+import CustomEnemies from './components/CustomEnemy/CustomEnemy.js'
 
 import './App.css';
 import './simple-sidebar.css';
+
+
 
 function App() {
   return (
@@ -42,6 +45,7 @@ function App() {
               <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">LUA Examples</span></Link>
               <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
               <Link to="/CustomBrands"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Brands</span></Link>
+              <Link to="/CustomEnemies"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Enemies</span></Link>
               <Link to="/CustomEffects"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Effects</span></Link>
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Particle Effects</b></span></Link>
             </div>
@@ -88,6 +92,7 @@ function App() {
               <Route exact={true} path="/CustomBrands" component={CustomBrand} />
               <Route exact={true} path="/CustomEffects" component={CustomEffect} />
               <Route exact={true} path="/HarmonySetup" component={HarmonyIntro} />             
+              <Route exact={true} path="/CustomEnemies" component={CustomEnemies} />             
             </div>
           </div>
         </div>
