@@ -16,6 +16,7 @@ import CustomBrand from './components/CustomBrand/CustomBrand.js'
 import CustomEffect from './components/CustomEffects/CustomEffects.js'
 import HarmonyIntro from './components/HarmonySetup/HarmonySetup.js'
 import CustomEnemies from './components/CustomEnemy/CustomEnemy.js'
+import CustomSkin from './components/CharacterSkin/CharacterSkin.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -47,6 +48,7 @@ function App() {
               <Link to="/CustomBrands"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Brands</span></Link>
               <Link to="/CustomEnemies"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Enemies</span></Link>
               <Link to="/CustomEffects"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Effects</span></Link>
+              <Link to="/CharacterSkins"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Character Skins</span></Link>
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Particle Effects</b></span></Link>
             </div>
 
@@ -92,7 +94,8 @@ function App() {
               <Route exact={true} path="/CustomBrands" component={CustomBrand} />
               <Route exact={true} path="/CustomEffects" component={CustomEffect} />
               <Route exact={true} path="/HarmonySetup" component={HarmonyIntro} />             
-              <Route exact={true} path="/CustomEnemies" component={CustomEnemies} />             
+              <Route exact={true} path="/CustomEnemies" component={CustomEnemies} />
+              <Route exact={true} path="/CharacterSkins" component={CustomSkin} />              
             </div>
           </div>
         </div>
