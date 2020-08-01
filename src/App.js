@@ -57,10 +57,10 @@ function App() {
               <Link to="/SpritesAndSounds"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop">Sprites and Sounds</span></Link>
               <Link to="/DotPeek"><span href="#" className="list-group-item list-group-item-action bg-dark text-light text-left toTop">C# Scripts</span></Link>
             </div>
-
+            
             <div className="sidebar-heading">Harmony</div>
             <div className="list-group list-group-flush">
-              <Link to="/HarmonySetup"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Harmony Setup</span></Link>
+              <Link to="/HarmonyIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Harmony Setup</b></span></Link>
               <Link to="/HarmonyIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Harmony Example</b></span></Link>
             </div>   
           </div>
