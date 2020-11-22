@@ -17,6 +17,7 @@ import CustomEffect from './components/CustomEffects/CustomEffects.js'
 import HarmonyIntro from './components/HarmonySetup/HarmonySetup.js'
 import CustomEnemies from './components/CustomEnemy/CustomEnemy.js'
 import CustomSkin from './components/CharacterSkin/CharacterSkin.js'
+import CustomZones from './components/CustomZones/CustomZones.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -50,6 +51,7 @@ function App() {
               <Link to="/CustomEffects"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Effects</span></Link>
               <Link to="/CharacterSkins"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Character Skins</span></Link>
               <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Custom Particle Effects</b></span></Link>
+              <Link to="/CustomZones"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Custom Zones</span></Link>
             </div>
 
             <div className="sidebar-heading">Viewing Game Files</div>
@@ -96,6 +98,7 @@ function App() {
               <Route exact={true} path="/HarmonySetup" component={HarmonyIntro} />             
               <Route exact={true} path="/CustomEnemies" component={CustomEnemies} />
               <Route exact={true} path="/CharacterSkins" component={CustomSkin} />              
+              <Route exact={true} path="/CustomZones" component={CustomZones} />              
             </div>
           </div>
         </div>
