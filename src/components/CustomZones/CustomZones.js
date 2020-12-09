@@ -100,8 +100,7 @@ class CustomZones extends React.Component {
                             <p className="text-about mt-4">All of these combine to make this.</p>
                             <img src={bg4} alt="OSFM Page Header" />
 
-                            <p className="text-about mt-4">Unfortuantely, because of the way unity handles our sprites, to get our background to not look blurry in game, we will need to take our image and scale it up using nearest neighbor.</p>
-
+                        
                             <div className="row">
                                 <div style={{ "overflow": "hidden" }} className="col-lg-12 col-xl-6">
                                     <p className="text-about mt-4">MMBN-bg_0.png</p>
@@ -120,9 +119,6 @@ class CustomZones extends React.Component {
                                     <img src={bg8} alt="OSFM Page Header" />
                                 </div>
                             </div>
-
-                            <p className="text-about mt-4">If we take these images and scale them to 2568x1440 they will apear in game with only slight subpixeling!</p>
-                            <p className="text-about"><a href="https://www.youtube.com/watch?v=rTng5sl6rbs">Random video about resizing pixel art.</a></p>
 
                             <h2 className="text-header">Music</h2>
                             <p className="text-about">Custom Zones actually soft lock if they dont have music associeted with them. I suggest finding a .wav file for the following.</p>
