@@ -49,6 +49,8 @@ class CustomBrand extends React.Component {
                             <div><img src={i3} alt="OSFM Page Header" /></div>
                             <h2 className="text-header mt-4">Mission Complete!</h2>
                             <p className="text-about">We should be able to see our new brand in action!</p>
+                            
+
                         </div>
                     </div>
                 </div>

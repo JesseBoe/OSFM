@@ -53,6 +53,10 @@ p{
   max-width: 100%;
 }
 
+.text-left{
+  text-align: left !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -66,6 +70,10 @@ p{
 
 .bg-dark01 {
     background-color: #3f4953!important;
+}
+
+.bg-dark {
+  background-color: #2a2f35 !important;
 }
 
 .bg-darkRed {
