@@ -107,7 +107,7 @@ class AttackExamples extends React.Component {
                                 &nbsp;&nbsp;&lt;Tags&gt;Cpu&lt;/Tags&gt;<br/>
                                 &nbsp;&nbsp;&lt;Action&gt;StepSlash&lt;/Action&gt;<br/>
                                 &nbsp;&nbsp;&lt;Description&gt;&lt;/Description&gt;<br/>
-                                &nbsp;&nbsp;&lt;Meta&gt;Dash fwd 3 tiles then slash 2x3 tiles in front&lt;/Meta&gt;<br/>
+                                &nbsp;&nbsp;&lt;Meta&gt;Dash fwd 3 tiles then slash 1x3 tiles in front&lt;/Meta&gt;<br/>
                                 &nbsp;&nbsp;&lt;Rarity&gt;1&lt;/Rarity&gt;<br/>
                                 &nbsp;&nbsp;&lt;Brand&gt;Slashfik&lt;/Brand&gt;<br/>
                                 &nbsp;&nbsp;&lt;Mana&gt;2&lt;/Mana&gt;<br/>
