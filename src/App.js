@@ -19,6 +19,7 @@ import CustomEnemies from './components/CustomEnemy/CustomEnemy.js'
 import CustomSkin from './components/CharacterSkin/CharacterSkin.js'
 import CustomZones from './components/CustomZones/CustomZones.js'
 import AdvancedTesting from './components/AdvancedTesting/AdvancedTesting.js'
+import AttackExamples from './components/AttackExamples/AttackExamples.js'
 
 import './App.css';
 import './simple-sidebar.css';
@@ -43,7 +44,7 @@ function App() {
 
             <div className="sidebar-heading">Advanced</div>
             <div className="list-group list-group-flush">
-              <Link to="/About"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop"><b>Spells.xml</b></span></Link>
+              <Link to="/AttackExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Attack Examples</span></Link>
               <Link to="/LuaIntro"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">Intro to LUA</span></Link>
               <Link to="/LuaExamples"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">LUA Examples</span></Link>
               <Link to="/MoreLuaPower"><span href="#" className="list-group-item list-group-item-action text-light bg-dark text-left toTop">More LUA Power</span></Link>
@@ -102,6 +103,7 @@ function App() {
               <Route exact={true} path="/CharacterSkins" component={CustomSkin} />              
               <Route exact={true} path="/CustomZones" component={CustomZones} />              
               <Route exact={true} path="/AdvancedTesting" component={AdvancedTesting} />              
+              <Route exact={true} path="/AttackExamples" component={AttackExamples} />              
             </div>
           </div>
         </div>
