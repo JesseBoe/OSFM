@@ -7,6 +7,7 @@ import fc2 from "./FC2.png"
 import fc3 from "./FC3.png"
 import fc4 from "./FirstSplash.png"
 import fc5 from "./fc5.png"
+import fc6 from "./OSFE_Sprite_Template.png"
 
 
 class FirstCharacter extends React.Component {
@@ -68,6 +69,9 @@ class FirstCharacter extends React.Component {
                                 &lt;/Beings&gt;<br />
                             </Highlight>
                             <p className="text-about">For this character we are going to import our own sprite sheet!</p>
+                            <p className="text-about">If you happen to be making your own sprites, here is a tempalte that will show you the correct spacing and padding.</p>
+                            <div><img src={fc6} className="mw100" alt="OSFM Page Header" /></div>
+                            <p className="text-about">Otherwise we can use these sprites for now!</p>
                             <div><img src={fc3} className="mw100" alt="OSFM Page Header" /></div>
                             <p className="text-about"><a href="https://www.dropbox.com/sh/x2po1t2hcgweohd/AAAj0ep7rd29kUqQ23HvWgt_a?dl=1">Dropbox Download</a></p>
                             <p className="text-about">Place the Char folder into your workshop folder.</p>
