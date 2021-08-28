@@ -125,7 +125,7 @@ class FirstSpell extends React.Component {
                             <p className="text-about">Your workshop folder should look like this.</p>
                             <p className="text-about">If you boot up the game and click the Install Mods button in the mods tab, we should be able to view our spell in the library.</p>
 
-                            <b className="text-about" style={{fontSize: "18px"}}>Note: I have recieved some reports of the Mini Mini Gun not appearing in he library until after adding the spell to a character</b>
+                            <b className="text-about" style={{fontSize: "18px"}}>Note: I have received some reports of the Mini Mini Gun not appearing in he library until after adding the spell to a character</b>
 
                             <div style={{marginTop:"16px"}}><img src={s4} className="mw100" alt="OSFM Page Header" /></div>
 
