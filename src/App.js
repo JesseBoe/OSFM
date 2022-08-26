@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Link, Route, Redirect } from 'react-router-dom';
 
 import Home from './components/Home/Home.js'
 import BasicOverview from './components/BasicOverview/BasicOverview.js'
